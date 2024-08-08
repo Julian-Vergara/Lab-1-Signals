@@ -182,8 +182,10 @@ plt.show()
 rart = np.zeros(nm)
 ampart = 5
 durart = 5000
-artini = np.random.randint(0,nm)
-rart[artini: artini + durart]= ampart * np.sin(np.linspace(0,2*np.pi,durart))
+y=5
+for _ in range (y):
+    artini = np.random.randint(0,nm)
+    rart[artini: artini + durart]= ampart * np.sin(np.linspace(0,2*np.pi,durart))
 
 # Infectar la señal con ruido de tipo artefacto
 sainf=valores_limpios + rart
