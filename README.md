@@ -176,4 +176,4 @@ def snr (valores, ruido):
 - wfdb
 - matplotlib
 ## Contacto 
-sst.julian.vergara@unimilitar.edu.co
+est.julian.vergara@unimilitar.edu.co
